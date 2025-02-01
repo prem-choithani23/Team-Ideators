@@ -1,0 +1,56 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+.navbar {  
+    background-color: #007bff;  
+    padding: 10px 20px;  
+}  
+
+.navbar-container {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+}  
+
+.navbar-logo {  
+    color: white;  
+    font-size: 24px;  
+    text-decoration: none;  
+}  
+
+.navbar-menu {  
+    list-style: none;  
+    display: flex;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+.navbar-menu li {  
+    flex: 1;  /* Each item takes equal space */  
+    text-align: center; /* Center align the text */  
+}  
+
+.navbar-link {  
+    color: white;  
+    text-decoration: none;  
+    font-size: 16px;  
+    transition: color 0.3s ease;  
+    display: inline-block; /* Makes it block-level for proper padding */  
+    padding: 10px 0; /* Add vertical padding */  
+}  
+
+.navbar-link::before,  
+
+
+.navbar-link:hover {  
+    color: #ffcc00; /* Change color on hover */  
+}  
+
+
+.container {  
+    padding: 20px;  
+    text-align: center;  
+}
