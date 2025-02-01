@@ -1,0 +1,40 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Login/Signup Page</title>  
+    <link rel="stylesheet" href="style.css">  
+</head>  
+<body>  
+    <div class="container">  
+        <h1>Welcome!</h1>  
+        <div class="form-container">  
+            <form id="userForm">  
+                <div class="user-type">  
+                    <h2>Select User Type:</h2>  
+                    <div class="user-buttons">  
+                        <button type="button" class="user-button" id="studentButton" onclick="selectUserType('student')">Student</button>  
+                        <button type="button" class="user-button" id="adminButton" onclick="selectUserType('admin')">Admin</button>  
+                    </div>  
+                </div>  
+                <div id="loginForm">  
+                    <h2>Login</h2>  
+                    <input type="email" placeholder="Email" required>  
+                    <input type="password" placeholder="Password" required>  
+                    <button type="submit">Login</button>  
+                </div>  
+                <div id="signupForm" style="display: none;">  
+                    <h2>Signup</h2>  
+                    <input type="text" placeholder="Full Name" required>  
+                    <input type="email" placeholder="Email" required>  
+                    <input type="password" placeholder="Password" required>  
+                    <button type="submit">Signup</button>  
+                </div>  
+                <button type="button" id="toggle">Toggle to Signup</button>  
+            </form>  
+        </div>  
+    </div>  
+    <script src="script.js"></script>  
+</body>  
+</html>
